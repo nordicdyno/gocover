@@ -4,4 +4,4 @@ go:
   - "1.11.5"
 
 after_success:
-  - "bash <(curl -s https://codecov.io/bash) -X fix"
+  - "bash <(curl -s https://codecov.io/bash)"
